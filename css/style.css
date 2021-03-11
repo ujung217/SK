@@ -17,24 +17,38 @@ body{
     margin-bottom: 50px;
 }
 
-.padding-t-b{
-    padding: 20px 0;
+/* header  */
+header{
+    position: fixed;
+    z-index: 99;
+    width: 100%;
 }
-.text>h3{
-    font-size: 15px;
-}
+/* header end  */
 
+/* slider  */
 .main-slider{
     width: 100%;
     height: 900px;
     overflow: hidden;
     font-size: 0;
     position: relative;
+    top: 70px;
 }
 .main-slider>div{
     position:absolute;
 }
+/* slider end  */
 
+/* section01  */
+.text>h3{
+    font-size: 15px;
+}
+.padding-t-b{
+    padding: 20px 0;
+}
+/* section01 end  */
+
+/* section02  */
 .hover{
     overflow: hidden;
     width: 100%;
@@ -90,9 +104,9 @@ body{
 .over:hover .white_span>i{
     color: #fff;
 }
-
 /* section02 end  */
 
+/* pr-section  */
 .pr_sec {
     background: url(../image/bg_img/pr_bg.jpg) no-repeat;
     background-size: cover;
@@ -162,9 +176,9 @@ span{
 .pr-cont-over:hover i,.pr-over:hover i{
     color: #fff;
 }
-
 /* pr-section end */
 
+/* partner-sec */
 .partner-sec{
     margin-top: 70px;
 }
@@ -179,6 +193,7 @@ span{
 }
 /* partner-sec end  */
 
+/* footer  */
 .footer-logo img{
     width: 150px;
 }
@@ -196,3 +211,4 @@ span{
     font-size: 0.9rem;
     color: rgb(130, 130, 130);
 }
+/* footer end  */
