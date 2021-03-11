@@ -1,0 +1,135 @@
+body{
+    font-size: 16px;
+    line-height: 1.8;
+    color: #f5f6f7;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+.container-fluid{
+    padding: 70px 0;
+}
+
+.margin{
+    margin-left: 20px;
+}
+.margin-b{
+    margin-bottom: 50px;
+}
+
+.padding-t-b{
+    padding: 20px 0;
+}
+.text>h3{
+    font-size: 15px;
+}
+.side{
+    margin: 0 40px;
+}
+
+.hover{
+    overflow: hidden;
+    width: 100%;
+    padding: 0!important;
+}
+.hover:hover .over{
+    transform: scale(1.1);
+    transition: all 1.0s ease-in-out;
+}
+.over{
+    width: 100%;
+    height: 300px;
+    padding: 70px 0;
+    cursor: pointer;
+}
+.bg-1{
+    background: url(../image/view/luone-city-view01jpg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bg-2{
+    background: url(../image/view/luone-city-view02.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bg-3{
+    background: url(../image/view/luone-city-view03.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.white_span{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 40px;
+    border: 1px solid #fff;
+    display: block;
+    margin: 15px auto;
+}
+
+.pr_sec {
+    background: url(../image/bg_img/pr_bg.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px 0;
+    margin-top: 50px;
+}
+.pr-bg-1{
+    background: url(../image/pr_sec/interior.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+}
+.pr-bg-2{
+    background: url(../image/pr_sec/modelhouse.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+}
+
+.pr-over,.pr-cont-hover{
+    padding-top: 50px;
+}
+.pr-bg-3{
+    width: 100%;
+    height: 240px;
+    background: #fff;
+}
+span{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 40px;
+    border: 1px solid rgba(0,0,0,.4);
+    display: block;
+    margin: 15px auto;
+}
+
+.pr-hover{
+    overflow: hidden;
+    width: 100%;
+}
+.pr-hover:hover .pr-over{
+    transform: scale(1.1);
+    transition: all 1.0s ease-in-out;
+}
+.pr-over,.pr-cont-over{
+    cursor: pointer;
+}
+
+
+.footer{
+    margin: 100px 0;
+}
+.logo-img{
+    width: 100%;
+    height: 100px;
+    border: 1px solid rgba(0,0,0,.3);
+}
+.logo-img>img{
+    width: 90%;
+}
