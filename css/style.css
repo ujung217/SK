@@ -23,6 +23,7 @@ header{
     z-index: 99;
     width: 100%;
 }
+
 /* header end  */
 
 /* slider  */
@@ -37,6 +38,10 @@ header{
 .main-slider>div{
     position:absolute;
 }
+.banner img{
+    width: 100%;
+} 
+
 /* slider end  */
 
 /* section01  */
@@ -106,6 +111,12 @@ header{
 }
 /* section02 end  */
 
+/* m_logo  */
+    .logo_img>img{
+        width: 60%;
+    }
+/* m_logo end  */
+
 /* pr-section  */
 .pr_sec {
     background: url(../image/bg_img/pr_bg.jpg) no-repeat;
@@ -137,7 +148,7 @@ header{
     height: 240px;
     background: #fff;
 }
-span{
+.pr-over span,.pr-cont-over span{
     width: 40px;
     height: 40px;
     display: inline-block;
@@ -212,3 +223,130 @@ span{
     color: rgb(130, 130, 130);
 }
 /* footer end  */
+
+
+@media(max-width:1500px){
+    .main-slider{
+        height: 700px;
+    }
+}
+@media(max-width:1200px){
+    .main-slider{
+        height: 500px;
+    }
+}
+@media(max-width:990px){
+    body{
+        font-size: 14px;
+    }
+
+    /* section01 */
+    .premium>h1{
+        font-size: 30px !important;
+    }
+
+    /* pr section  */
+    .pr-cont-over>img{
+        width: 100%;
+    }
+
+    /* footer  */
+    .num{
+        padding-top: 5px !important;
+    }
+}
+@media(max-width:767px){
+    .main-slider{
+        height: 400px;
+    }
+    .container-fluid{
+        padding: 30px 0;
+    }
+    .logo-img{
+        height: 60px;
+    }
+    
+    .navbar-nav{
+        float: right;
+    }
+    
+    /* pr section  */
+    .pr_sec{
+        padding: 50px 0;
+    }
+    .pr-hover{
+        margin-bottom: 20px;
+    }
+    .pr-cont-over>img{
+        width: 60%;
+    }
+
+    /* .partner-sec */
+    .partner-sec{
+        margin-top: 50px;
+    }
+
+    /* footer  */
+    .footer-text{
+        padding-top: 5px !important;
+    }
+    .footer-text>p{
+        font-size: 12px;
+    }
+
+    .contact-num>h3{
+        font-size: 20px;
+    }
+}
+@media(max-width:540px){
+    body{
+        font-size: 12px;
+    }
+    .main-slider{
+        height: 300px;
+    }
+
+    /* section01  */
+    .premium>h1{
+        font-size: 20px !important;
+    }
+    .text>h1{
+        font-size: 1.3rem;
+    }
+    .text>h3{
+        font-size: 1rem;
+    }
+    .border-top{
+         display: flex;
+    }
+    .img>a>img{
+        width: 140px !important;
+        position: absolute;
+        top: -110px;
+        left: 60%;
+    }
+
+    /* partner-sec */
+    .partner-sec{
+        display: none;
+    }
+    .f-nav{
+        display: none !important;
+    }
+
+}
+@media(max-width:420px){
+    .main-slider{
+        height: 200px;
+    }
+     /* section01  */
+     .img>a>img{
+        width: 130px !important;
+        position: absolute;
+        top: -110px;
+        left: 60%;
+    }
+}
+@media(max-width:320px){
+
+}
