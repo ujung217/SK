@@ -255,7 +255,7 @@ header{
         padding-top: 5px !important;
     }
 }
-@media(max-width:767px){
+@media(max-width:768px){
     .main-slider{
         height: 400px;
     }
@@ -335,9 +335,9 @@ header{
     }
 
 }
-@media(max-width:420px){
+@media(max-width:411px){
     .main-slider{
-        height: 200px;
+        height: 250px;
     }
      /* section01  */
      .img>a>img{
